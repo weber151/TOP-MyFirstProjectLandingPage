@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    background: #1f2937;
+    flex: 1;
+    height: 400px;
+}
+
+.middle {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
+.signupend {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}

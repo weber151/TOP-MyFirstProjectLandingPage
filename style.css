@@ -3,6 +3,15 @@
     background: #1f2937;
     flex: 1;
     height: 400px;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.top-l-header {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 40px;
 }
 
 .middle {

@@ -1,31 +1,94 @@
-.header {
-    display: flex;
-    background: #1f2937;
-    flex: 1;
-    height: 400px;
-    justify-content: space-evenly;
-    padding: 40px;
-}
 
-.top-l-header {
-    font-weight: bold;
-    font-size: 24px;
-    color: #f9faf8;
-    gap: 40px;
+.circle {
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    background: #f9faf8;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+  }
+  
+  .head_container {
+      display: flex;
+      background: #1f2937;
+      height: ;
+      padding: 5px;
+      align-items: center;
+      flex-flow: column;
+  }
+  
+  .top_head_container {
+      display: flex;
+      color: #f9faf8;
+      padding: 10px;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+      margin-right: 10%;
+      margin-left: 10%;
+  }
+  
+  .top_head_logo {
+      font-weight: bold;
+      font-size: 24px;
+      width: 50%;
+  }
+  
+  .btm_head_container {
+      display: flex;
+      color: #f9faf8;
+      padding: 10px;
+      justify-content: space-between;
+      align-self: stretch;
+      margin-right: 10%;
+      margin-left: 10%;
+  }
+ .btm_head_left_items {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: flex-start;
+      gap: 5px;
+  }
+ .btm_head_right_items {
+      display: flex;
+      align-self: stretch;
+      justify-self: stretch;
+      align-items: center;
+      justify-content: center;
+      background: grey;
+      width: 50%;
+ }
+.head_link {
+      font-size: 18px;
+      color: #E5E7EB;
 }
-
-.middle {
-    display: flex;
+.head_btn {
+      display: flex;
+      width: 100px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      background: #3882F6;
+      font-weight: bold;
+      
 }
-
-.quote {
-    display: flex;
-}
-
-.signupend {
-    display: flex;
-}
-
-.footer {
-    display: flex;
-}
+  
+  .middle {
+      display: flex;
+  }
+  
+  .quote {
+      display: flex;
+  }
+  
+  .signupend {
+      display: flex;
+  }
+  
+  .footer {
+      display: flex;
+  }

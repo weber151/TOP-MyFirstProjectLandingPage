@@ -109,27 +109,89 @@
       justify-content: center;
       padding: 10px;
       gap: 10px;
-      max-width: 140px;
+      max-width: 155px;
 }
 .mid_img {
-      width: 120px;
-      height: 120px;
+      width: 140px;
+      height: 140px;
       border: 2px solid #3882F6;
       border-radius: 10px; 
 }
 .mid_img_txt {
       text-align: center;
 }
-  /* QUOTE CODE BELOW */
-
+/* QUOTE CODE BELOW */
+  .quote_container {
+      display: flex;
+      height: 500px;
+      background: #E5E7EB;
+      flex-flow: column wrap;
+      padding: 130px;
+  }
   .quote {
-      display: flex;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+  .quote_author {
+      font-size: 36px;
+      font-weight: bold;
+      color: #1f2937;
+      text-align: right;
+      margin-right: 25%;
+      margin-left: 25%;
   }
-  
-  .signupend {
+/* SIGN UP CODE BELOW */
+  .signupend_container {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      background: #3882F6;
+      border-radius: 5px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 80px;
+      padding-right: 80px;
+      margin-left: 450px;
+      margin-right: 450px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      gap: 50px;
   }
-  
+  .signup_text_container {
+      display: flex;
+      gap: 5px;
+      flex-grow: 2;
+      flex-direction: column;
+  }
+  .signup_header {
+      font-weight: bold;
+      color: #f9faf8
+  }
+  .signup_text {
+      color: #f9faf8
+  }
+  .signup_btn {
+      display: flex;
+      color: #f9faf8;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      border: 2px solid #f9faf8;
+      border-radius: 5px;
+      width: 100px;
+      max-height: 20px;
+      padding: 5px;
+  }
+/* FOOTER CODE BELOW */  
   .footer {
       display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f9faf8;
+      background: #1f2937;
+      height: 80px;
   }

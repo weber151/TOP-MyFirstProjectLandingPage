@@ -1,8 +1,8 @@
 /* HEADER CODE BELOW */
 .circle {
     position: absolute;
-    top: 4%;
-    right: 2%;
+    top: 20px;
+    right: 30px;
     background: #f9faf8;
     border-radius: 50%;
     height: 40px;
@@ -13,7 +13,6 @@
   .head_container {
       display: flex;
       background: #1f2937;
-      height: 500px;
       padding: 5px;
       align-items: center;
       flex-flow: column;
@@ -29,6 +28,7 @@
       align-self: stretch;
       margin-right: 25%;
       margin-left: 25%;
+      min-width: 500px;
   }
   
   .top_head_logo {
@@ -45,6 +45,7 @@
       margin-bottom: 15%;
       margin-right: 25%;
       margin-left: 25%;
+      min-width: 500px;
   }
  .btm_head_left_items {
       display: flex;
@@ -59,6 +60,7 @@
       align-self: stretch;
       justify-self: stretch;
       align-items: center;
+      text-align: center;
       justify-content: center;
       background: grey;
       width: 50%;
@@ -123,7 +125,6 @@
 /* QUOTE CODE BELOW */
   .quote_container {
       display: flex;
-      height: 500px;
       background: #E5E7EB;
       flex-flow: column wrap;
       padding: 130px;
@@ -165,6 +166,7 @@
       gap: 5px;
       flex-grow: 2;
       flex-direction: column;
+      min-width: 100px;
   }
   .signup_header {
       font-weight: bold;
@@ -184,6 +186,7 @@
       border-radius: 5px;
       width: 100px;
       max-height: 20px;
+      min-width: 100px;
       padding: 5px;
   }
 /* FOOTER CODE BELOW */  
